@@ -1,3 +1,6 @@
+--- This stored procedure script loads the data into the bronze schema
+--- It first truncates the tables before bulk inserting so it is advisable to first back up all your data.
+
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
 	BEGIN TRY
