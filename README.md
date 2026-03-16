@@ -76,7 +76,7 @@ This project uses a **star schema** approach for analytics (fact + dimensions):
 - **FactSales** (sales transactions)
 - **DimCustomer** (customer master data)
 - **DimProduct** (product master data)
-The `scripts/gold/ddl_gold.sql` script contains the full schema definition for the Gold layer.
+- The `scripts/gold/ddl_gold.sql` script contains the full schema definition for the Gold layer.
 
 ---
 
