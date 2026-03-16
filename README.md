@@ -161,7 +161,10 @@ To add new sources or dimensions:
 If you need help adding new analytics or improving data quality rules, open an issue or update the documentation in this repository.
 
 ---
+**Project by Asiimwe Mark Amooti**  
+*Learning data engineering, data analysis and business intelligence - this was my first big analytics project! with guidance from Data With Baraa youtube channel*
 
+---
 ## 🤝 Connect with me
 
 
