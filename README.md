@@ -148,7 +148,7 @@ To add new sources or dimensions:
 
 ---
 
-## 📌 Notes for Junior Developers
+## 📌 Key Take-Away Notes for Myself
 
 - Keep transformations (safe to run multiple times).
 - Sanitize and validate all source columns before joining.
