@@ -118,10 +118,10 @@ The Gold schema is designed to support analytical queries like:
 -- Top 10 products by sales amount
 SELECT TOP (10)
   p.ProductName,
-  SUM(f.SalesAmount) AS TotalSales
-FROM dbo.FactSales f
-JOIN dbo.DimProduct p ON f.ProductKey = p.ProductKey
-GROUP BY p.ProductName
+  SUM(f.sales_amount) AS TotalSales
+FROM dbo.gold.fact_sales f
+JOIN dbo.gold.dim_product p ON f.ProductKey = p.product_key
+GROUP BY p.product_name
 ORDER BY TotalSales DESC;
 ```
 
